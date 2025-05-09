@@ -1,0 +1,9 @@
+{
+	"name": "dcouto11-df",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f87aef0e-d3ec-4f78-82b3-4b7f9621efa8",
+		"tenantId": "156d0073-d1b7-440a-a225-4aaa5afa9a67"
+	}
+}

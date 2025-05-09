@@ -1,0 +1,71 @@
+{
+	"name": "PowerConsumption",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"filename": {
+				"type": "string",
+				"defaultValue": "powerconsumption"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat(\n    dataset().filename,\n    '.csv'\n)",
+					"type": "Expression"
+				},
+				"folderPath": "Electricity_Consumption",
+				"fileSystem": "landing"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Datetime",
+				"type": "String"
+			},
+			{
+				"name": "Temperature",
+				"type": "String"
+			},
+			{
+				"name": "Humidity",
+				"type": "String"
+			},
+			{
+				"name": "WindSpeed",
+				"type": "String"
+			},
+			{
+				"name": "GeneralDiffuseFlows",
+				"type": "String"
+			},
+			{
+				"name": "DiffuseFlows",
+				"type": "String"
+			},
+			{
+				"name": "PowerConsumption_Zone1",
+				"type": "String"
+			},
+			{
+				"name": "PowerConsumption_Zone2",
+				"type": "String"
+			},
+			{
+				"name": "PowerConsumption_Zone3",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
