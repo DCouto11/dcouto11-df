@@ -13,7 +13,6 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
 				"typeProperties": {
 					"source": {
 						"type": "DelimitedTextSource",
@@ -68,6 +67,12 @@
 				]
 			}
 		],
+		"parameters": {
+			"date": {
+				"type": "string",
+				"defaultValue": "'2025-05-10'"
+			}
+		},
 		"annotations": [],
 		"lastPublishTime": "2025-05-09T18:33:26Z"
 	},
