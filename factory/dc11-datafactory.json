@@ -1,0 +1,9 @@
+{
+	"name": "dc11-datafactory",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6328ab09-bcf9-4cf9-8f94-8934ae286c42",
+		"tenantId": "6d54cb13-5aa2-4b7a-b256-680486162427"
+	}
+}
