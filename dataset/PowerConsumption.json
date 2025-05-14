@@ -8,7 +8,7 @@
 		"parameters": {
 			"filename": {
 				"type": "string",
-				"defaultValue": "powerconsumption"
+				"defaultValue": "Customer Loyalty History"
 			}
 		},
 		"annotations": [],
@@ -20,7 +20,7 @@
 					"value": "@concat(\n    dataset().filename,\n    '.csv'\n)",
 					"type": "Expression"
 				},
-				"folderPath": "Electricity_Consumption",
+				"folderPath": "CanadianFlights",
 				"fileSystem": "landing"
 			},
 			"columnDelimiter": ",",
@@ -30,39 +30,67 @@
 		},
 		"schema": [
 			{
-				"name": "Datetime",
+				"name": "Loyalty Number",
 				"type": "String"
 			},
 			{
-				"name": "Temperature",
+				"name": "Country",
 				"type": "String"
 			},
 			{
-				"name": "Humidity",
+				"name": "Province",
 				"type": "String"
 			},
 			{
-				"name": "WindSpeed",
+				"name": "City",
 				"type": "String"
 			},
 			{
-				"name": "GeneralDiffuseFlows",
+				"name": "Postal Code",
 				"type": "String"
 			},
 			{
-				"name": "DiffuseFlows",
+				"name": "Gender",
 				"type": "String"
 			},
 			{
-				"name": "PowerConsumption_Zone1",
+				"name": "Education",
 				"type": "String"
 			},
 			{
-				"name": "PowerConsumption_Zone2",
+				"name": "Salary",
 				"type": "String"
 			},
 			{
-				"name": "PowerConsumption_Zone3",
+				"name": "Marital Status",
+				"type": "String"
+			},
+			{
+				"name": "Loyalty Card",
+				"type": "String"
+			},
+			{
+				"name": "CLV",
+				"type": "String"
+			},
+			{
+				"name": "Enrollment Type",
+				"type": "String"
+			},
+			{
+				"name": "Enrollment Year",
+				"type": "String"
+			},
+			{
+				"name": "Enrollment Month",
+				"type": "String"
+			},
+			{
+				"name": "Cancellation Year",
+				"type": "String"
+			},
+			{
+				"name": "Cancellation Month",
 				"type": "String"
 			}
 		]
