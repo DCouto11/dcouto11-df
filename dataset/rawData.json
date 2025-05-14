@@ -1,5 +1,5 @@
 {
-	"name": "PowerConsumption",
+	"name": "rawData",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",

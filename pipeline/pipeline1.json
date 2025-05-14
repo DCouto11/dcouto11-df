@@ -50,7 +50,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "PowerConsumption",
+						"referenceName": "Bronze_data",
 						"type": "DatasetReference",
 						"parameters": {
 							"filename": "powerconsumption"
@@ -59,7 +59,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Bronze_Morocco",
+						"referenceName": "Bronze_data",
 						"type": "DatasetReference",
 						"parameters": {
 							"filename": "powerconsumption"
