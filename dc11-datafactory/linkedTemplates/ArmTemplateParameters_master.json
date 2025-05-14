@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dc11-datafactory"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://dc11storage.dfs.core.windows.net/"
+		},
+		"Bronze loading_properties_pipeline1_parameters_date": {
+			"value": "2025-05-16"
+		},
+		"Bronze loading_properties_typeProperties_scope": {
+			"value": "/subscriptions/e8fee18c-8cc3-45fe-b111-0f7fc543ffeb/resourceGroups/dcouto11-rg/providers/Microsoft.Storage/storageAccounts/datalakestoragedbdc11"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
