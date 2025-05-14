@@ -1,5 +1,5 @@
 {
-	"name": "Bronze_Morocco",
+	"name": "Bronze_data",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -8,7 +8,7 @@
 		"parameters": {
 			"filename": {
 				"type": "String",
-				"defaultValue": "powerconsumption"
+				"defaultValue": "CustomerLoyaltyHistory"
 			}
 		},
 		"annotations": [],
