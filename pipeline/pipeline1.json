@@ -53,7 +53,7 @@
 						"referenceName": "Bronze_data",
 						"type": "DatasetReference",
 						"parameters": {
-							"filename": "powerconsumption"
+							"filename": "Customer Loyalty History"
 						}
 					}
 				],
