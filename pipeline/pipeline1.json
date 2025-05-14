@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "PowerConsumption",
+				"name": "CustomerFlights",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
