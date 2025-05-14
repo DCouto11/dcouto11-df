@@ -50,7 +50,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Bronze_data",
+						"referenceName": "rawData",
 						"type": "DatasetReference",
 						"parameters": {
 							"filename": "Customer Loyalty History"
@@ -62,7 +62,7 @@
 						"referenceName": "Bronze_data",
 						"type": "DatasetReference",
 						"parameters": {
-							"filename": "powerconsumption"
+							"filename": "customerloyaltyhistory"
 						}
 					}
 				]
